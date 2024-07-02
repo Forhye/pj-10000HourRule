@@ -56,15 +56,15 @@ header {
   padding: 90px 0;
 }
 
-/* 헤더 미디어 쿼리 영역 */
+/* 헤더 미디어 쿼리 */
 @media (max-width: 830px) {
   header {
-    background-size: 40%;
-    padding: 40px 0;
+    background-size: 125px;
+    padding: 30px 0;
   }
 
   header > img {
-    width: 80%;
+    width: 267px;
   }
 }
 
@@ -93,10 +93,13 @@ main {
 .discription {
   font-size: var(--font18--);
   font-weight: 400;
+  line-height: 35px;
+
   background-image: url(./src/accent.svg);
   background-repeat: no-repeat;
   background-position: center 0;
-  line-height: 35px;
+  background-size: 493px;
+  background-position-y: 10px;
 }
 
 .text-bold {
@@ -116,8 +119,8 @@ main {
   .discription,
   .text-bold {
     font-size: 0.875rem;
-    background-size: 80%;
-    background-position-y: 30px;
+    background-size: 310px;
+    background-position-y: 36px;
   }
 }
 
@@ -215,7 +218,7 @@ input::placeholder {
   }
 
   .btn-count > img {
-    width: 13%;
+    width: 43px;
     top: 115px;
   }
 }
@@ -236,9 +239,15 @@ input::placeholder {
   margin-left: 10px;
   vertical-align: middle;
 }
+
+/* 계산 결과 영역 미디어 쿼리 */
 @media (max-width: 830px) {
   .complete > p {
     font-size: var(--font14--);
+  }
+
+  .complete > p:last-child {
+    margin-top: 11px;
   }
 
   .text-bold-xl {
@@ -276,6 +285,22 @@ input::placeholder {
   box-shadow: var(--box-shadow--);
 }
 
+/* 바로가기 영역 버튼 미디어 쿼리 */
+@media (max-width: 830px) {
+  .btn-training {
+    width: 186px;
+    font-size: var(--font14--);
+    padding: 12.5px 17.5px;
+  }
+
+  .btn-share {
+    width: 92px;
+    font-size: var(--font14--);
+    padding: 12.5px 19px;
+    margin-left: 12px;
+  }
+}
+
 .btn-count button,
 .btn-training,
 .btn-share:hover {
@@ -297,4 +322,17 @@ dd {
   font-family: "Noto Sans KR", sans-serif;
   font-size: 12px;
   line-height: 17.38px;
+}
+
+/* 푸터 미디어 쿼리 */
+@media (max-width: 830px) {
+  footer {
+    padding: 80px 0;
+  }
+
+  dl {
+    opacity: 70%;
+    margin-top: 17px;
+    font-weight: 100;
+  }
 }
