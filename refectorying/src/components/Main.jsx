@@ -1,4 +1,5 @@
 import React from "react";
+import finger from "../assets/click-hand.svg";
 
 export default function Main() {
   return (
@@ -38,7 +39,7 @@ export default function Main() {
       <section class="btn-count">
         <h3 class="sr-only">훈련시간 계산 결과 보기 버튼</h3>
         <button>나는 며칠 동안 훈련을 해야 1만 시간이 될까?</button>
-        <img src="./src/click-hand.svg" alt="클릭하는 손가락 아이콘" />
+        <img src={finger} alt="클릭하는 손가락 아이콘" />
       </section>
 
       <section class="complete">
