@@ -16,7 +16,7 @@
 
 ## 배포 주소
 
-> https://forhye.github.io/pj-10000HourRule/
+> ![1만시간의법칙](https://forhye.github.io/pj-10000HourRule/)
 
 ## 👁‍🗨 프로젝트 소개
 
